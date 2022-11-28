@@ -14,4 +14,4 @@ for number in range(7, 78, 7):
 print()
 
 for number in range(20, -1, -2):
-    print(number, end=" ")
+    print(number, end=' ')

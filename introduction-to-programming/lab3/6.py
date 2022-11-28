@@ -1,10 +1,10 @@
-number_students = int(input("Wprowadź liczbę studentów:"))
+number_students = int(input('Enter the number of students:'))
 
 current_student = 1
 sum = 0
 
 while True:
-    mark = int(input(f"Wpisz ocenę studenta #{current_student}:"))
+    mark = int(input(f"Enter the student's grade #{current_student}:"))
 
     if 0 <= mark <= 100:
         sum += mark

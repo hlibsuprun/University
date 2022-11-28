@@ -1,16 +1,16 @@
-letter = input('Wpisz jedną literę:')
+letter = input('Enter one letter:')
 
 if len(letter) > 1:
-    print("Jest więcej niż jedna litera")
+    print("There is more than one letter")
     exit()
 
 if len(letter) == 0:
-    print("Nie ma żadnej litery")
+    print("There is no letter")
     exit()
 
 if 'A' <= letter <= 'Z':
-    print('Litera jest wielka')
+    print('The letter is in capital')
 elif 'a' <= letter <= 'z':
-    print('Litera jest mała')
+    print('The letter is small')
 else:
-    print("Nie ma litery")
+    print("There is no letter")

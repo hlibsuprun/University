@@ -1,4 +1,4 @@
-age = int(input("Enter age:"))
+age = int(input('Enter age:'))
 cena = 0
 
 if age < 4:
@@ -8,4 +8,4 @@ elif age <= 18:
 else:
     cena = 20
 
-print(f"Costs {cena}pln")
+print(f'Costs {cena}pln')

@@ -20,6 +20,6 @@ elif operation_number == 3:
 elif operation_number == 4:
     result = first_argument / second_argument
 elif operation_number == 5:
-    result = first_argument ** second_argument
+    result = first_argument % second_argument
 
 print(f'Result: {result}')

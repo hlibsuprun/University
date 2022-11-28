@@ -1,9 +1,9 @@
 array = [0, 0, 0]
 status = False
 
-array[0] = int(input("x: "))
-array[1] = int(input("y: "))
-array[2] = int(input("z: "))
+array[0] = int(input('x: '))
+array[1] = int(input('y: '))
+array[2] = int(input('z: '))
 print(array)
 
 i = 0

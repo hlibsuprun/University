@@ -1,4 +1,4 @@
-age = int(input('Wprowadź wiek klienta:'))
+age = int(input('Enter the age of the client:'))
 
 if age < 4:
     price = 0
@@ -7,4 +7,4 @@ elif 4 <= age <= 18:
 else:
     price = 20
 
-print(f'Cena biletu: {price}pł')
+print(f'Ticket price: {price}pł')

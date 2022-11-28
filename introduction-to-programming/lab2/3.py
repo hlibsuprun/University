@@ -1,25 +1,25 @@
-operation = int(input('Wpisz numer operacji:'))
+operation_number = int(input('Enter the operation number:'))
 
-if operation > 5:
-    print("Nieprawidłowy numer operacji")
+if operation_number > 5:
+    print('Invalid operation number')
     exit()
 
-first_argument = int(input('Podaj argument 1:'))
-second_argument = int(input('Podaj argument 2:'))
+first_argument = int(input('Enter the first argument:'))
+second_argument = int(input('Enter the second argument:'))
 
-if operation == 4 and second_argument == 0:
-    print("Nie możemy podzielić przez zero")
+if operation_number == 4 and second_argument == 0:
+    print("We can't divide by zero")
     exit()
 
-if operation == 1:
-    solution = first_argument + second_argument
-elif operation == 2:
-    solution = first_argument - second_argument
-elif operation == 3:
-    solution = first_argument * second_argument
-elif operation == 4:
-    solution = first_argument / second_argument
-elif operation == 5:
-    solution = pow(first_argument, second_argument)
+if operation_number == 1:
+    result = first_argument + second_argument
+elif operation_number == 2:
+    result = first_argument - second_argument
+elif operation_number == 3:
+    result = first_argument * second_argument
+elif operation_number == 4:
+    result = first_argument / second_argument
+elif operation_number == 5:
+    result = first_argument ** second_argument
 
-print(f"Wynik: {solution}")
+print(f'Result: {result}')

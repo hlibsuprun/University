@@ -1,6 +1,6 @@
-array = list("qwertyuiopasdfghjklzxcvbnm")
-array_2 = list("QWERTYUIOPASDFGHJKLZXCVBNM")
-letter = input("Letter: ")
+array = list('qwertyuiopasdfghjklzxcvbnm')
+array_2 = list('QWERTYUIOPASDFGHJKLZXCVBNM')
+letter = input('Letter: ')
 
 cycle = -1
 for i in array:
